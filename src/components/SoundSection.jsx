@@ -1,6 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useRefStore } from "../store";
 
 const SoundSection = () => {
+  const displayRef = useRefStore((state) => state.displayRef);
+
+  const handleLearnMore = () => {
+    displayRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div className="sound-section wrapper">
       <div className="body">
@@ -13,7 +20,9 @@ const SoundSection = () => {
               <button className="button">Buy</button>
             </li>
             <li>
-              <a className="link">Learn more</a>
+              <a className="link" onClick={handleLearnMore}>
+                Learn more
+              </a>
             </li>
           </ul>
         </div>

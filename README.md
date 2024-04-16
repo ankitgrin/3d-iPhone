@@ -1,6 +1,6 @@
 # 3D iPhone Landing Page
 
-This project is a 3D landing page for iPhone created using Three.js and WebGL, with animations powered by GSAP. The entire project is built with React.js.
+This project is a 3D landing page for iPhone created using Three.js and WebGI SDK, with animations powered by GSAP. The entire project is built with React.js.
 
 ## Features
 
@@ -12,7 +12,7 @@ This project is a 3D landing page for iPhone created using Three.js and WebGL, w
 
 - React.js
 - Three.js
-- WebGL
+- WebGI SDK
 - GSAP
 
 ## Acknowledgements
